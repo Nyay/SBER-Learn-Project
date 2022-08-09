@@ -18,11 +18,11 @@ body {
     height: fit-content;
     display: flex;
     flex-direction: row;
-    gap: 6rem;
-    border: 0.25rem dashed var(--background-color-middle);
-    border-radius: 1.25rem;
+    gap: 1.5rem;
+    border: 0.0625rem dashed var(--background-color-middle);
+    border-radius: 0.3125rem;
     box-sizing: border-box;
-    padding: 6rem;
+    padding: 1.5rem;
 }
 
 .checkbox {
@@ -30,11 +30,11 @@ body {
 }
 
 .checkbox__input {
-    width: 4rem;
-    height: 4rem;
+    width: 1rem;
+    height: 1rem;
     background-color: var(--background-color-day-white);
-    border: 0.25rem solid var(--background-color-day-light-blue);
-    border-radius: 0.5rem;
+    border: 0.0625rem solid var(--background-color-day-light-blue);
+    border-radius: 0.125rem;
     box-sizing: border-box;
     appearance: none;
 }
@@ -46,6 +46,7 @@ body {
     fill: var(--background-color-day-white);
     opacity: 0;
     transition: opacity 0.3s ease-in;
+    margin: 0.125rem 0.09375rem 0.125rem 0.1875rem;
 }
 
 .checkbox__input:checked {
