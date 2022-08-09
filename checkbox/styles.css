@@ -1,0 +1,66 @@
+:root {
+    --background-color-middle: #8055FF;
+    --background-color-day-white: #FFFFFF;
+    --background-color-day-light-blue: #BAD8F5;
+    --background-color-day-blue: #459DF5;
+}
+
+body {
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.339);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.component {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+    border: 0.25rem dashed var(--background-color-middle);
+    border-radius: 1.25rem;
+    box-sizing: border-box;
+    padding: 6rem;
+}
+
+.checkbox {
+    position: relative;
+}
+
+.checkbox__input {
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--background-color-day-white);
+    border: 0.25rem solid var(--background-color-day-light-blue);
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    appearance: none;
+}
+
+.checkbox__icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: var(--background-color-day-white);
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
+
+.checkbox__input:checked {
+    background-color: var(--background-color-day-blue);
+    border: none;
+}
+
+.checkbox__input:active {
+    background-color: var(--background-color-day-light-blue);
+}
+
+.checkbox__input:active + .checkbox__icon {
+    fill: var(--background-color-day-light-blue);
+}
+
+.checkbox__input:checked + .checkbox__icon {
+    opacity: 1;
+}
