@@ -1,0 +1,62 @@
+:root {
+    --background-color-day-black: #000000;
+    --background-color-middle: #8055FF;
+    --background-color-day-white: #FFFFFF;
+    --background-color-day-light-blue: #BAD8F5;
+    --background-color-day-blue: #459DF5;
+    --background-color-day-red: #F53152;
+}
+
+.component {
+    flex-direction: column !important;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input__input {
+    appearance: none;
+    width: 16rem;
+    height: 2rem;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    padding: 0.5rem 0.25rem 0.5rem 0.5rem;
+}
+
+.input__input-primary {
+    border: 0.0625rem solid var(--background-color-day-blue);
+    background-color: var(--background-color-day-white);
+}
+
+.input__input-incorrect {
+    border: 0.0625rem solid var(--background-color-day-red);
+    background-color: var(--background-color-day-white);
+}
+
+.input__input-blocked {
+    background-color: var(--background-color-day-light-blue);
+    border: 0.0625rem solid var(--background-color-day-blue);
+    cursor: not-allowed;
+}
+
+.input__label, .input__input::placeholder, .input__input {
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1rem;
+}
+
+.input__label {
+    color: var(--background-color-day-black);
+}
+
+.input__input::placeholder {
+    color: var(--background-color-day-light-blue);
+}
+
+.input__input-blocked::placeholder {
+    color: var(--background-color-day-black);
+}

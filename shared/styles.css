@@ -1,3 +1,10 @@
+:root {
+    --background-color-middle: #8055FF;
+    --background-color-day-white: #FFFFFF;
+    --background-color-day-light-blue: #BAD8F5;
+    --background-color-day-blue: #459DF5;
+}
+
 body {
     height: 100vh;
     background-color: rgba(128, 128, 128, 0.339);
