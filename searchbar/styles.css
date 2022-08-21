@@ -1,0 +1,55 @@
+:root {
+    --background-color-white: #FFFFFF;
+    --background-color-blue: #459DF5;
+    --background-color-day-light-blue: #BAD8F5;
+}
+
+.searchbar {
+    width: 16rem;
+    height: 2rem;
+    display: flex;
+    background-color: var(--background-color-white);
+    border: 0.0625rem solid var(--background-color-blue);
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    padding: 0.25rem;
+    gap: 0.5rem
+}
+
+.searchbar__icon {
+    stroke: var(--background-color-blue);
+}
+
+.searchbar__input {
+    appearance: none;
+    width: 100%;
+    border: none;
+}
+
+.searchbar__input::placeholder {
+    color: var(--background-color-day-light-blue);
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.searchbar__button {
+    appearance: none;
+    position: relative;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar__button__icon {
+    stroke: var(--background-color-day-light-blue);
+    position: absolute;
+    top: auto;
+    left: 0;
+}
+
+.searchbar-delete-hidden + .searchbar__button {
+    display: none;
+}
