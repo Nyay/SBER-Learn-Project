@@ -170,8 +170,12 @@ body {
     align-items: center;
 }
 
-.row__component:last-child {
+.row__component:last-child, .header__component:last-child {
     width: auto;
+}
+
+.row__component:first-child, .header__component:first-child {
+    width: 8.75rem;
 }
 
 .header__component-selected {
