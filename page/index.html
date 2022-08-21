@@ -22,7 +22,7 @@
         <div class="header__text">
             Список заказов
         </div>
-        <button class="button button-transparent button-lg">
+        <button class="button button_transparent button_lg">
             <svg class="button__icon" viewBox="0 0 16 16" strok="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="8" cy="8" r="4" stroke="none"/>
                 <path d="M15 9L16 8L15 7H13V9H15Z" stroke="none"/>
@@ -41,7 +41,7 @@
         <div class="dropdown">
             <div class="dropdown__title">Выберите тему</div>
             <div class="dropdown__buttons">
-                <button class="button button-transparent button-sm">
+                <button class="button button_transparent button_sm">
                     <svg class="button__icon" viewBox="0 0 16 16" strok="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="8" cy="8" r="4" stroke="none"/>
                         <path d="M15 9L16 8L15 7H13V9H15Z" stroke="none"/>
@@ -57,7 +57,7 @@
                         Светлая
                     </div>
                 </button>
-                <button class="button button-primary button-sm">
+                <button class="button button_primary button_sm">
                     <svg class="button__icon" viewBox="0 0 16 16" stroke="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 15C12.0269 15 15.5 11.5021 15 7.5C14.7688 10.0468 12.6071 12 10 12C7.23858 12 5 9.76142 5 7C5 4.23858 7.23858 2 10 2C11 2 12 2.5 12 2.5C11 1.5 10 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15Z" stroke="none"/>
                         </svg>
@@ -71,7 +71,7 @@
     <div class="filter">
         <div class="filter__buttons">
 
-            <div class="searchbar searchbar-delete-hidden">
+            <div class="searchbar searchbar_delete_hidden">
                 <svg class="searchbar__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
                 </svg>
@@ -83,7 +83,7 @@
                 </button>
             </div>
 
-            <button class="button button-primary button-lg">
+            <button class="button button_primary button_lg">
                 <svg class="button__icon" viewBox="0 0 16 16" stroke="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 4H4V5.5L7 8.5V12L9 13V8.5L12 5.5V4Z" stroke="none"/>
                     </svg>
@@ -92,7 +92,7 @@
                 </div>
             </button>
 
-            <button class="button button-transparent button-lg button-no-icon">
+            <button class="button button_transparent button_lg button_no_icon">
                 <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
                 </svg>
@@ -104,7 +104,7 @@
         </div>
         <div class="filter__loading">
 
-            <button class="button button-transparent button-lg">
+            <button class="button button_transparent button_lg">
                 <svg class="button__icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2.50251 7.5V8.5C2.50251 10.75 4.75251 13.5 8.00251 13.5C10 13.5 11.6187 12.5 12.6 11" fill="none"/>
                     <path d="M13.5 8.5V7.5C13.5 5.25 11.25 2.5 7.99997 2.5C6 2.5 4.38135 3.5 3.4 5" fill="none"/>
@@ -120,17 +120,17 @@
     </div>
     <div class="params">
         <div class="params__date">
-            <div class="input input-primary">
-                <label class="input__label">Дата оформления</label>
+            <div class="input input_primary">
+                <label for="date_1" class="input__label">Дата оформления</label>
                 <div class="input__body">
                     <div class="input_prefix">с</div>
-                    <input class="input__input" type="text" placeholder="dd.mm.dddd" value="20.01.2021">
+                    <input id="date_1" class="input__input" type="text" placeholder="dd.mm.dddd" value="20.01.2021">
                     <svg class="input__icon" viewBox="0 0 16 16" fill="none" stroke="#8055FF" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/>
                     </svg>
                 </div>
             </div>
-            <div class="input input-primary">
+            <div class="input input_primary">
                 <label class="input__label"></label>
                 <div class="input__body">
                     <div class="input_prefix">по</div>
@@ -142,10 +142,10 @@
             </div>
         </div>
         <div class="params__status">
-            <div class="input input-primary">
-                <label class="input__label">Статус заказа</label>
+            <div class="input input_primary">
+                <label for="status_1" class="input__label">Статус заказа</label>
                 <div class="input__body">
-                    <input class="input__input" type="text" placeholder="dd.mm.dddd" value="Любой">
+                    <input id="status_1" class="input__input" type="text" placeholder="dd.mm.dddd" value="Любой">
                     <svg class="input__icon" viewBox="0 0 16 16" fill="none" stroke="#8055FF" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/>
                     </svg>
@@ -155,83 +155,83 @@
                 <div class="dropdown__item">
                     <div class="checkbox">
                         <label class="checkbox__label">
-                            <input class="checkbox__input" type="checkbox">
+                            <input id="new_1" class="checkbox__input" type="checkbox">
                             <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                             </svg>
                         </label>
                     </div>
-                    <div><a class="item__link" href="">Новый</a></div>
+                    <div><label class="item__link" for="new_1">Новый</label></div>
                 </div>
                 <div class="dropdown__item">
                     <div class="checkbox">
                         <label class="checkbox__label">
-                            <input class="checkbox__input" type="checkbox">
+                            <input id="payment_1" class="checkbox__input" type="checkbox">
                             <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                             </svg>
                         </label>
                     </div>
-                    <div><a class="item__link" href="">Рассчет</a></div>
+                    <div><label for="payment_1" class="item__link">Рассчет</label></div>
                 </div>
                 <div class="dropdown__item">
                     <div class="checkbox">
                         <label class="checkbox__label">
-                            <input class="checkbox__input" type="checkbox" checked>
+                            <input id="approved_1" class="checkbox__input" type="checkbox" checked>
                             <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                             </svg>
                         </label>
                     </div>
-                    <div><a class="item__link item__link_current" href="" curr>Подтвержден</a></div>
+                    <div><label for="approved_1" class="item__link item__link_current" curr>Подтвержден</label></div>
                 </div>
                 <div class="dropdown__item">
                     <div class="checkbox">
                         <label class="checkbox__label">
-                            <input class="checkbox__input" type="checkbox">
+                            <input id="declined_1" class="checkbox__input" type="checkbox">
                             <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                             </svg>
                         </label>
                     </div>
-                    <div><a class="item__link" href="">Отложен</a></div>
+                    <div><label for="declined_1" class="item__link">Отложен</label></div>
                 </div>
                 <div class="dropdown__item">
                     <div class="checkbox">
                         <label class="checkbox__label">
-                            <input class="checkbox__input" type="checkbox">
+                            <input id="success_1" class="checkbox__input" type="checkbox">
                             <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                             </svg>
                         </label>
                     </div>
-                    <div><a class="item__link" href="">Выполнен</a></div>
+                    <div><label for="success_1" class="item__link">Выполнен</label></div>
                 </div>
                 <div class="dropdown__item">
                     <div class="checkbox">
                         <label class="checkbox__label">
-                            <input class="checkbox__input" type="checkbox">
+                            <input id="canceled_1" class="checkbox__input" type="checkbox">
                             <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                             </svg>
                         </label>
                     </div>
-                    <div><a class="item__link" href="">Отменен</a></div>
+                    <div><label for="canceled_1" class="item__link">Отменен</label></div>
                 </div>
             </div>
         </div>
         <div class="params__price">
-            <div class="input input-primary">
-                <label class="input__label">Сумма заказа</label>
+            <div class="input input_primary">
+                <label for="price_1" class="input__label">Сумма заказа</label>
                 <div class="input__body">
                     <div class="input_prefix">от</div>
-                    <input class="input__input" type="text" placeholder="dd.mm.dddd" value="5000">
+                    <input id="price_1" class="input__input" type="text" placeholder="dd.mm.dddd" value="5000">
                     <svg class="input__icon" viewBox="0 0 16 16" fill="none" stroke="#8055FF" xmlns="http://www.w3.org/2000/svg">
                         <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/>
                     </svg>
                 </div>
             </div>
-            <div class="input input-primary">
+            <div class="input input_primary">
                 <label class="input__label"></label>
                 <div class="input__body">
                     <div class="input_prefix">до</div>
@@ -242,7 +242,7 @@
                 </div>
             </div>
         </div>
-        <button class="button button-transparent button-lg button-no-icon">
+        <button class="button button_transparent button_lg button_no_icon">
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -264,7 +264,7 @@
                 </div>
                 <p>#</p>
             </div>
-            <div class="header__component header__component-selected">
+            <div class="header__component header__component_selected">
                 <p>Дата</p>
                 <svg class="header__icon" viewBox="0 0 16 16" stroke="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M5 6H11V6.5L8.25 11H7.75L5 6.5V6Z" stroke="none"/>
@@ -301,7 +301,7 @@
                     <p>15.02.2021, 18:00</p>
                 </div>
                 <div class="row__component">
-                    <div class="table__status table__status-delay">
+                    <div class="table__status table__status_delay">
                         <svg class="table__status_icon" viewBox="0 0 16 16" stroke="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="8" cy="8" r="4" stroke="none"/>
                         </svg>
@@ -332,7 +332,7 @@
                     <p>11.02.2021, 12:00</p>
                 </div>
                 <div class="row__component">
-                    <div class="table__status table__status-success">
+                    <div class="table__status table__status_success">
                         <svg class="table__status_icon" viewBox="0 0 16 16"stroke="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                             </svg>
@@ -363,7 +363,7 @@
                     <p>5.01.2021, 18:20</p>
                 </div>
                 <div class="row__component">
-                    <div class="table__status table__status-payment">
+                    <div class="table__status table__status_payment">
                         <svg class="table__status_icon" viewBox="0 0 16 16" stroke="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="8" cy="8" r="4" stroke="none"/>
                         </svg>
@@ -394,7 +394,7 @@
                     <p>25.03.2021, 11:00</p>
                 </div>
                 <div class="row__component">
-                    <div class="table__status table__status-cancel">
+                    <div class="table__status table__status_cancel">
                         <svg class="table__status_icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12.5 12.5L3.5 3.5" fill="none"/>
                             <circle cx="8" cy="8" r="6.5" fill="none"/>
@@ -426,7 +426,7 @@
                     <p>13.05.2021, 11:00</p>
                 </div>
                 <div class="row__component">
-                    <div class="table__status table__status-success">
+                    <div class="table__status table__status_success">
                         <svg class="table__status_icon" viewBox="0 0 16 16"stroke="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                             </svg>
@@ -457,7 +457,7 @@
                     <p>19.06.2021, 13:22</p>
                 </div>
                 <div class="row__component">
-                    <div class="table__status table__status-delay">
+                    <div class="table__status table__status_delay">
                         <svg class="table__status_icon" viewBox="0 0 16 16" stroke="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="8" cy="8" r="4" stroke="none"/>
                         </svg>
@@ -488,7 +488,7 @@
                     <p>11.06.2021, 18:32</p>
                 </div>
                 <div class="row__component">
-                    <div class="table__status table__status-payment">
+                    <div class="table__status table__status_payment">
                         <svg class="table__status_icon" viewBox="0 0 16 16" stroke="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="8" cy="8" r="4" stroke="none"/>
                         </svg>
@@ -519,7 +519,7 @@
                     <p>11.03.2021, 11:23</p>
                 </div>
                 <div class="row__component">
-                    <div class="table__status table__status-delay">
+                    <div class="table__status table__status_delay">
                         <svg class="table__status_icon" viewBox="0 0 16 16" stroke="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="8" cy="8" r="4" stroke="none"/>
                         </svg>
@@ -550,7 +550,7 @@
                     <p>23.03.2021, 5:12</p>
                 </div>
                 <div class="row__component">
-                    <div class="table__status table__status-payment">
+                    <div class="table__status table__status_payment">
                         <svg class="table__status_icon" viewBox="0 0 16 16" stroke="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="8" cy="8" r="4" stroke="none"/>
                         </svg>
@@ -581,7 +581,7 @@
                     <p>2.02.2020, 4:20</p>
                 </div>
                 <div class="row__component">
-                    <div class="table__status table__status-success">
+                    <div class="table__status table__status_success">
                         <svg class="table__status_icon" viewBox="0 0 16 16"stroke="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                             </svg>
@@ -612,7 +612,7 @@
                     <p>16.08.2021, 12:30</p>
                 </div>
                 <div class="row__component">
-                    <div class="table__status table__status-cancel">
+                    <div class="table__status table__status_cancel">
                         <svg class="table__status_icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12.5 12.5L3.5 3.5" fill="none"/>
                             <circle cx="8" cy="8" r="6.5" fill="none"/>
@@ -644,7 +644,7 @@
                     <p>12.03.2021, 12:43</p>
                 </div>
                 <div class="row__component">
-                    <div class="table__status table__status-cancel">
+                    <div class="table__status table__status_cancel">
                         <svg class="table__status_icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12.5 12.5L3.5 3.5" fill="none"/>
                             <circle cx="8" cy="8" r="6.5" fill="none"/>
@@ -675,7 +675,7 @@
                 <div class="row__component">
                     <p>13.01.2021, 15:43</p>
                 </div>
-                <div class="row__component"><div class="table__status table__status-success">
+                <div class="row__component"><div class="table__status table__status_success">
                     <svg class="table__status_icon" viewBox="0 0 16 16"stroke="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                         </svg>
@@ -693,7 +693,7 @@
     </div>
     <div class="footer">
         <div class="footer__buttons">
-            <button class="button button-transparent button-sm button-no-icon">
+            <button class="button button_transparent button_sm button_no_icon">
                 <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
                 </svg>
@@ -701,7 +701,7 @@
                     Выбрано записей: 5
                 </div>
             </button>
-            <button class="button button-primary button-sm">
+            <button class="button button_primary button_sm">
                 <svg class="button__icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M6 14.5H15" fill="none"/>
                     <path d="M5 13L1.5 14.5L3 11M5 13L3 11M5 13L12 6M3 11L10 4M11 3L12.5 1.5L14.5 3.5L13 5M11 3L13 5M11 3L10 4M13 5L12 6M12 6L10 4" fill="none"/>
@@ -710,7 +710,7 @@
                     Изменить статус
                 </div>
             </button>
-            <button class="button button-danger button-sm">
+            <button class="button button_danger button_sm">
                 <svg class="button__icon" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M2 3.5H3.5M14 3.5H12.5M5.5 3.5H10.5M5.5 3.5V2.5C5.5 1.94772 5.94772 1.5 6.5 1.5H9.5C10.0523 1.5 10.5 1.94772 10.5 2.5V3.5M5.5 3.5H3.5M10.5 3.5H12.5M3.5 3.5V13.5C3.5 14.0523 3.94772 14.5 4.5 14.5H11.5C12.0523 14.5 12.5 14.0523 12.5 13.5V3.5" fill="none" stroke-linecap="round"/>
                     <path d="M6.5 6V12M9.5 6V12" fill="none" stroke-linecap="round"/>
@@ -723,7 +723,7 @@
             <div class="dropdown">
                 <div class="dropdown__title">Удалить n записей?</div>
                 <div class="dropdown__buttons">
-                    <button class="button button-transparent button-sm button-no-icon">
+                    <button class="button button_transparent button_sm button_no_icon">
                         <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
                         </svg>
@@ -731,7 +731,7 @@
                             Удалить
                         </div>
                     </button>
-                    <button class="button button-primary button-sm button-no-icon">
+                    <button class="button button_primary button_sm button_no_icon">
                         <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                             <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
                         </svg>
@@ -744,7 +744,7 @@
         </div>
         <div class="footer__paginator">
             <div class="paginator__numbers">
-                <button class="button button-primary button-sm button-no-icon">
+                <button class="button button_primary button_sm button_no_icon">
                     <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
                     </svg>
@@ -752,7 +752,7 @@
                         1
                     </div>
                 </button>
-                <button class="button button-transparent button-sm button-no-icon">
+                <button class="button button_transparent button_sm button_no_icon">
                     <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
                     </svg>
@@ -760,7 +760,7 @@
                         2
                     </div>
                 </button>
-                <button class="button button-transparent button-sm button-no-icon">
+                <button class="button button_transparent button_sm button_no_icon">
                     <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
                     </svg>
@@ -768,7 +768,7 @@
                         3
                     </div>
                 </button>
-                <button class="button button-transparent button-sm button-no-icon">
+                <button class="button button_transparent button_sm button_no_icon">
                     <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
                     </svg>
@@ -776,7 +776,7 @@
                         ...
                     </div>
                 </button>
-                <button class="button button-transparent button-sm button-no-icon">
+                <button class="button button_transparent button_sm button_no_icon">
                     <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
                     </svg>
@@ -786,7 +786,7 @@
                 </button>
             </div>
             <div class="paginator__all">
-                <button class="button button-transparent button-sm button-no-icon">
+                <button class="button button_transparent button_sm button_no_icon">
                     <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
                     </svg>

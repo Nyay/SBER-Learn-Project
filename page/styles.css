@@ -98,7 +98,7 @@ body {
     box-sizing: border-box;
 }
 
-.button-danger {
+.button_danger {
     background-color: var(--background-color-day-red);
 }
 
@@ -178,7 +178,7 @@ body {
     width: 8.75rem;
 }
 
-.header__component-selected {
+.header__component_selected {
     background: rgba(0, 0, 0, 0.15);
 }
 
@@ -202,26 +202,26 @@ body {
     width: 1rem;
 }
 
-.table__status-delay > .table__status_icon {
+.table__status_delay > .table__status_icon {
     fill: var(--background-color-day-orange);
     stroke: var(--background-color-day-orange);
 }
 
-.table__status-payment > .table__status_icon {
+.table__status_payment > .table__status_icon {
     fill: var(--background-color-day-blue);
     stroke: var(--background-color-day-blue);
 }
 
-.table__status-cancel > .table__status_icon {
+.table__status_cancel > .table__status_icon {
     fill: var(--background-color-day-black);
     stroke: var(--background-color-day-black);
 }
 
-.table__status-success {
+.table__status_success {
     color: var(--background-color-day-green);
 }
 
-.table__status-success > .table__status_icon {
+.table__status_success > .table__status_icon {
     fill: var(--background-color-day-green);
     stroke: var(--background-color-day-green);
 }

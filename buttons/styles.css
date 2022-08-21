@@ -13,27 +13,27 @@
     align-self:flex-start;
 }
 
-.button-primary {
+.button_primary {
     background-color: var(--background-color-blue);
 }
 
-.button-lg {
+.button_lg {
     max-height: 2rem;
     gap: 0.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
-.button-sm {
+.button_sm {
     max-height: 1.5rem;
     gap: 0.25rem;
     padding: 0.25rem 0.5rem 0.25rem 0.5rem;
 }
 
-.button-no-text.button-lg  {
+.button_no_text.button_lg  {
     padding: 0.5rem 0.5rem 0.5rem 0.5rem
 }
 
-.button-no-text.button-sm  {
+.button_no_text.button_sm  {
     padding: 0.25rem 0.25rem 0.25rem 0.25rem
 }
 
@@ -44,7 +44,7 @@
     width: 1rem;
 }
 
-.button-no-icon > .button__icon, .button-no-text > .button__text{
+.button_no_icon > .button__icon, .button_no_text > .button__text{
     display: none;
 }
 
@@ -57,16 +57,16 @@
     color: var(--background-color-white);
 }
 
-.button-transparent {
+.button_transparent {
     background-color: rgba(255, 255, 255, 0);
 }
 
-.button-transparent > .button__icon {
+.button_transparent > .button__icon {
     stroke: var(--background-color-blue);
     fill: var(--background-color-blue);
 }
 
-.button-transparent > .button__text {
+.button_transparent > .button__text {
     color: var(--background-color-blue);
 }
 

@@ -21,7 +21,7 @@
     <!-- Searchbar component block -->
     <div class="component">
 
-        <div class="searchbar searchbar-delete-hidden">
+        <div class="searchbar searchbar_delete_hidden">
             <svg class="searchbar__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -93,28 +93,28 @@
 
     <div class="component">
 
-        <div class="input input-primary">
-            <label class="input__label">Input primary</label>
+        <div class="input input_primary">
+            <label for="input_primary_1" class="input__label">Дата и время заказа</label>
             <div class="input__body">
-                <input class="input__input" type="text" placeholder="Hey, look! Nice!">
+                <input id="input_primary_1" class="input__input" type="text" placeholder="Введите">
                 <svg class="input__icon" viewBox="0 0 16 16" fill="none" stroke="#8055FF" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/>
                 </svg>
             </div>
         </div>
-        <div class="input input-incorrect">
-            <label class="input__label">Input incorrect</label>
+        <div class="input input_incorrect">
+            <label for="input_incorrect_1" class="input__label">Дата и время заказа</label>
             <div class="input__body">
-                <input class="input__input" value="06.12.2021" type="text">
+                <input id="input_incorrect_1" class="input__input" value="06.12.2021" type="text" placeholder="Введите">
                 <svg class="input__icon" viewBox="0 0 16 16" fill="none" stroke="#8055FF" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none"/>
                 </svg>
             </div>
         </div>
-        <div class="input input-blocked">
-            <label class="input__label">Input blocked</label>
+        <div class="input input_blocked">
+            <label for="input_blocked" class="input__label">Дата и время заказа</label>
             <div class="input__body">
-                <input class="input__input" type="text" placeholder="06.12.2021" disabled>
+                <input id="input_blocked" class="input__input" type="text" placeholder="06.12.2021" disabled>
                 <svg class="input__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M4 5C4 2.79086 5.79086 1 8 1C10.2091 1 12 2.79086 12 5V7C13.1046 7 14 7.89543 14 9V13C14 14.1046 13.1046 15 12 15H4C2.89543 15 2 14.1046 2 13V9C2 7.89543 2.89543 7 4 7V5ZM10 5V7H6V5C6 3.89543 6.89543 3 8 3C9.10457 3 10 3.89543 10 5Z" stroke="none"/>
                     <path d="M12 5C12 2.8 10.2 1 8 1C5.8 1 4 2.8 4 5L4 9H6V5C6 3.75 7 3 8 3C9 3 10 3.75 10 5V9H12V5Z" stroke="none"/>
@@ -128,7 +128,7 @@
 
     <div class="component">
 
-        <button class="button button-primary button-lg">
+        <button class="button button_primary button_lg">
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -137,7 +137,7 @@
             </div>
         </button>
     
-        <button class="button button-primary button-lg button-no-icon">
+        <button class="button button_primary button_lg button_no_icon">
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -146,7 +146,7 @@
             </div>
         </button>
     
-        <button class="button button-primary button-lg button-no-text">
+        <button class="button button_primary button_lg button_no_text">
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -155,7 +155,7 @@
             </div>
         </button>
     
-        <button class="button button-primary button-sm">
+        <button class="button button_primary button_sm">
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -164,7 +164,7 @@
             </div>
         </button>
     
-        <button class="button button-primary button-sm button-no-icon">
+        <button class="button button_primary button_sm button_no_icon">
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -173,7 +173,7 @@
             </div>
         </button>
     
-        <button class="button button-primary button-sm button-no-text">
+        <button class="button button_primary button_sm button_no_text">
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -186,7 +186,7 @@
     
     <div class="component">
 
-        <button class="button button-transparent button-lg">
+        <button class="button button_transparent button_lg">
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -195,7 +195,7 @@
             </div>
         </button>
     
-        <button class="button button-transparent button-lg button-no-icon">
+        <button class="button button_transparent button_lg button_no_icon">
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -204,7 +204,7 @@
             </div>
         </button>
     
-        <button class="button button-transparent button-lg button-no-text">
+        <button class="button button_transparent button_lg button_no_text">
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -213,7 +213,7 @@
             </div>
         </button>
     
-        <button class="button button-transparent button-sm">
+        <button class="button button_transparent button_sm">
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -222,7 +222,7 @@
             </div>
         </button>
     
-        <button class="button button-transparent button-sm button-no-icon">
+        <button class="button button_transparent button_sm button_no_icon">
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -231,7 +231,7 @@
             </div>
         </button>
     
-        <button class="button button-transparent button-sm button-no-text">
+        <button class="button button_transparent button_sm button_no_text">
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -243,7 +243,7 @@
 
     <div class="component">
 
-        <button class="button button-transparent button-lg" disabled>
+        <button class="button button_transparent button_lg" disabled>
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -252,7 +252,7 @@
             </div>
         </button>
     
-        <button class="button button-transparent button-lg button-no-icon" disabled>
+        <button class="button button_transparent button_lg button_no_icon" disabled>
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -261,7 +261,7 @@
             </div>
         </button>
     
-        <button class="button button-transparent button-lg button-no-text" disabled>
+        <button class="button button_transparent button_lg button_no_text" disabled>
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -270,7 +270,7 @@
             </div>
         </button>
     
-        <button class="button button-transparent button-sm" disabled>
+        <button class="button button_transparent button_sm" disabled>
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -279,7 +279,7 @@
             </div>
         </button>
     
-        <button class="button button-transparent button-sm button-no-icon" disabled>
+        <button class="button button_transparent button_sm button_no_icon" disabled>
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -288,7 +288,7 @@
             </div>
         </button>
     
-        <button class="button button-transparent button-sm button-no-text" disabled>
+        <button class="button button_transparent button_sm button_no_text" disabled>
             <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
             </svg>
@@ -307,68 +307,69 @@
             <div class="dropdown__item">
                 <div class="checkbox">
                     <label class="checkbox__label">
-                        <input class="checkbox__input" type="checkbox">
+                        <input id="new_1" class="checkbox__input" type="checkbox">
                         <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                         </svg>
+                        <p></p>
                     </label>
                 </div>
-                <div><a class="item__link" href="">Новый</a></div>
+                <div><label class="item__link" for="new_1">Новый</label></div>
             </div>
             <div class="dropdown__item">
                 <div class="checkbox">
                     <label class="checkbox__label">
-                        <input class="checkbox__input" type="checkbox">
+                        <input id="payment_1" class="checkbox__input" type="checkbox">
                         <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                         </svg>
                     </label>
                 </div>
-                <div><a class="item__link" href="">Рассчет</a></div>
+                <div><label for="payment_1" class="item__link">Рассчет</label></div>
             </div>
             <div class="dropdown__item">
                 <div class="checkbox">
                     <label class="checkbox__label">
-                        <input class="checkbox__input" type="checkbox" checked>
+                        <input id="approved_1" class="checkbox__input" type="checkbox" checked>
                         <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                         </svg>
                     </label>
                 </div>
-                <div><a class="item__link item__link_current" href="" curr>Подтвержден</a></div>
+                <div><label for="approved_1" class="item__link item__link_current" curr>Подтвержден</label></div>
             </div>
             <div class="dropdown__item">
                 <div class="checkbox">
                     <label class="checkbox__label">
-                        <input class="checkbox__input" type="checkbox">
+                        <input id="declined_1" class="checkbox__input" type="checkbox">
                         <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                         </svg>
                     </label>
                 </div>
-                <div><a class="item__link" href="">Отложен</a></div>
+                <div><label for="declined_1" class="item__link">Отложен</label></div>
             </div>
             <div class="dropdown__item">
                 <div class="checkbox">
                     <label class="checkbox__label">
-                        <input class="checkbox__input" type="checkbox">
+                        <input id="success_1" class="checkbox__input" type="checkbox">
                         <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                         </svg>
                     </label>
                 </div>
-                <div><a class="item__link" href="">Выполнен</a></div>
+                <div><label for="success_1" class="item__link">Выполнен</label></div>
             </div>
             <div class="dropdown__item">
                 <div class="checkbox">
                     <label class="checkbox__label">
-                        <input class="checkbox__input" type="checkbox">
+                        <input id="canceled_1" class="checkbox__input" type="checkbox">
                         <svg class="checkbox__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                             <path d="M7 10L4.5 6L3 7L7 14L14.5 3.5V3L13 2L7 10Z" stroke="none"/>
                         </svg>
                     </label>
                 </div>
-                <div><a class="item__link" href="">Отменен</a></div>
+                <div><label for="canceled_1" class="item__link">Отменен</label></div>
             </div>
         </div>
 
@@ -400,7 +401,7 @@
         </div>
 
         <div class="dropdown">
-            <div class="input input-primary">
+            <div class="input input_primary">
                 <label class="input__label">Номер страницы</label>
                 <div class="input__body">
                     <input class="input__input" type="text" placeholder="Введите  номер">
@@ -414,7 +415,7 @@
         <div class="dropdown">
             <div class="dropdown__title">Удалить n записей?</div>
             <div class="dropdown__buttons">
-                <button class="button button-transparent button-sm button-no-icon">
+                <button class="button button_transparent button_sm button_no_icon">
                     <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
                     </svg>
@@ -422,7 +423,7 @@
                         Удалить
                     </div>
                 </button>
-                <button class="button button-primary button-sm button-no-icon">
+                <button class="button button_primary button_sm button_no_icon">
                     <svg class="button__icon" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                         <path d="M10.0355 10.0355C11.9882 8.08291 11.9882 4.91709 10.0355 2.96447C8.08291 1.01184 4.91709 1.01184 2.96447 2.96447C1.01184 4.91709 1.01184 8.08291 2.96447 10.0355C4.91709 11.9882 8.08291 11.9882 10.0355 10.0355ZM10.0355 10.0355L14 14M14 14L14.5 13.5L11.5 10.5M14 14L13.5 14.5L10.5 11.5" fill="none"/>
                     </svg>
@@ -436,7 +437,7 @@
         <div class="dropdown">
             <div class="dropdown__title">Выберите тему</div>
             <div class="dropdown__buttons">
-                <button class="button button-transparent button-sm">
+                <button class="button button_transparent button_sm">
                     <svg class="button__icon" viewBox="0 0 16 16" strok="none" xmlns="http://www.w3.org/2000/svg">
                         <circle cx="8" cy="8" r="4" stroke="none"/>
                         <path d="M15 9L16 8L15 7H13V9H15Z" stroke="none"/>
@@ -452,7 +453,7 @@
                         Светлая
                     </div>
                 </button>
-                <button class="button button-primary button-sm">
+                <button class="button button_primary button_sm">
                     <svg class="button__icon" viewBox="0 0 16 16" stroke="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M8 15C12.0269 15 15.5 11.5021 15 7.5C14.7688 10.0468 12.6071 12 10 12C7.23858 12 5 9.76142 5 7C5 4.23858 7.23858 2 10 2C11 2 12 2.5 12 2.5C11 1.5 10 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15Z" stroke="none"/>
                         </svg>
@@ -467,13 +468,13 @@
 
     <!-- Header component block -->
 
-    <div class="component component-column">
+    <div class="component component_column">
 
         <div class="header">
             <div class="header__text">
                 Список заказов
             </div>
-            <button class="button button-transparent button-lg">
+            <button class="button button_transparent button_lg">
                 <svg class="button__icon" viewBox="0 0 16 16" strok="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="8" cy="8" r="4" stroke="none"/>
                     <path d="M15 9L16 8L15 7H13V9H15Z" stroke="none"/>
@@ -492,7 +493,7 @@
             <div class="dropdown">
                 <div class="dropdown__title">Выберите тему</div>
                 <div class="dropdown__buttons">
-                    <button class="button button-transparent button-sm">
+                    <button class="button button_transparent button_sm">
                         <svg class="button__icon" viewBox="0 0 16 16" strok="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="8" cy="8" r="4" stroke="none"/>
                             <path d="M15 9L16 8L15 7H13V9H15Z" stroke="none"/>
@@ -508,7 +509,7 @@
                             Светлая
                         </div>
                     </button>
-                    <button class="button button-primary button-sm">
+                    <button class="button button_primary button_sm">
                         <svg class="button__icon" viewBox="0 0 16 16" stroke="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8 15C12.0269 15 15.5 11.5021 15 7.5C14.7688 10.0468 12.6071 12 10 12C7.23858 12 5 9.76142 5 7C5 4.23858 7.23858 2 10 2C11 2 12 2.5 12 2.5C11 1.5 10 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15Z" stroke="none"/>
                             </svg>
@@ -520,11 +521,11 @@
             </div>
         </div>
 
-        <div class="header header-expanded">
+        <div class="header header_expanded">
             <div class="header__text">
                 Список заказов
             </div>
-            <button class="button button-transparent button-lg">
+            <button class="button button_transparent button_lg">
                 <svg class="button__icon" viewBox="0 0 16 16" strok="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="8" cy="8" r="4" stroke="none"/>
                     <path d="M15 9L16 8L15 7H13V9H15Z" stroke="none"/>
@@ -543,7 +544,7 @@
             <div class="dropdown">
                 <div class="dropdown__title">Выберите тему</div>
                 <div class="dropdown__buttons">
-                    <button class="button button-transparent button-sm">
+                    <button class="button button_transparent button_sm">
                         <svg class="button__icon" viewBox="0 0 16 16" strok="none" xmlns="http://www.w3.org/2000/svg">
                             <circle cx="8" cy="8" r="4" stroke="none"/>
                             <path d="M15 9L16 8L15 7H13V9H15Z" stroke="none"/>
@@ -559,7 +560,7 @@
                             Светлая
                         </div>
                     </button>
-                    <button class="button button-primary button-lg">
+                    <button class="button button_primary button_lg">
                         <svg class="button__icon" viewBox="0 0 16 16" stroke="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M8 15C12.0269 15 15.5 11.5021 15 7.5C14.7688 10.0468 12.6071 12 10 12C7.23858 12 5 9.76142 5 7C5 4.23858 7.23858 2 10 2C11 2 12 2.5 12 2.5C11 1.5 10 1 8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15Z" stroke="none"/>
                             </svg>

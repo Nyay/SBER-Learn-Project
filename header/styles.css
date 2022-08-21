@@ -32,6 +32,6 @@
     display: none;
 }
 
-.header-expanded > .dropdown {
+.header_expanded > .dropdown {
     display: block;
 }

@@ -26,6 +26,10 @@
     border: none;
 }
 
+.searchbar__input:focus {
+    outline: none;
+}
+
 .searchbar__input::placeholder {
     color: var(--background-color-day-light-blue);
     font-size: 0.75rem;
@@ -50,6 +54,6 @@
     left: 0;
 }
 
-.searchbar-delete-hidden + .searchbar__button {
+.searchbar_delete_hidden > .searchbar__button {
     display: none;
 }
