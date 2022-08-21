@@ -140,6 +140,8 @@ body {
 .table__row {
     height: 2.5rem;
     display: flex;
+    border-bottom: 0.0625rem solid var(--background-color-day-blue-white);
+    box-sizing: border-box;
 }
 
 .header__component {
