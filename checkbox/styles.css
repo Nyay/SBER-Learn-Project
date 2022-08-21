@@ -9,6 +9,10 @@
     position: relative;
 }
 
+.checkbox__label {
+    display: flex;
+}
+
 .checkbox__input {
     width: 1rem;
     height: 1rem;

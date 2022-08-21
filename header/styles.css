@@ -1,0 +1,37 @@
+:root {
+    --background-color-white: #FFFFFF;
+    --background-color-blue: #459DF5;
+    --background-color-day-light-blue: #BAD8F5;
+    --background-color-day-black: #000000;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100vh;
+    justify-content: space-between;
+    position: relative;
+}
+
+.header__text {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1rem;
+    color: var(--background-color-day-black);
+}
+
+.header > .dropdown {
+    position: absolute;
+    right: 0;
+    top: 2rem;
+}
+
+.header > .dropdown {
+    display: none;
+}
+
+.header-expanded > .dropdown {
+    display: block;
+}

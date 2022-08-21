@@ -1,0 +1,82 @@
+:root {
+    --background-color-white: #FFFFFF;
+    --background-color-blue: #459DF5;
+    --background-color-day-light-blue: #BAD8F5;
+    --background-color-day-black: #000000;
+}
+
+.button {
+    appearance: none;
+    border: none;
+    border-radius: 0.25rem;
+    display: flex;
+    align-self:flex-start;
+}
+
+.button-primary {
+    background-color: var(--background-color-blue);
+}
+
+.button-lg {
+    max-height: 2rem;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.button-sm {
+    max-height: 1.5rem;
+    gap: 0.25rem;
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+}
+
+.button-no-text.button-lg  {
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem
+}
+
+.button-no-text.button-sm  {
+    padding: 0.25rem 0.25rem 0.25rem 0.25rem
+}
+
+.button__icon {
+    stroke: var(--background-color-white);
+    fill: var(--background-color-white);
+    height: 100%;
+    width: 1rem;
+}
+
+.button-no-icon > .button__icon, .button-no-text > .button__text{
+    display: none;
+}
+
+.button__text {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: var(--background-color-white);
+}
+
+.button-transparent {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.button-transparent > .button__icon {
+    stroke: var(--background-color-blue);
+    fill: var(--background-color-blue);
+}
+
+.button-transparent > .button__text {
+    color: var(--background-color-blue);
+}
+
+.button:disabled > .button__icon {
+    stroke: var(--background-color-day-black);
+    fill: var(--background-color-day-black);
+}
+
+.button:disabled > .button__text {
+    color: var(--background-color-day-black);
+}
+
+
