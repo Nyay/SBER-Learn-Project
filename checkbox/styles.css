@@ -24,9 +24,11 @@
 }
 
 .checkbox__icon {
+    width: 1rem;
+    height: 1rem;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0.0625rem;
+    left: 0.0625rem;
     fill: var(--background-color-day-white);
     opacity: 0;
     transition: opacity 0.3s ease-in;
