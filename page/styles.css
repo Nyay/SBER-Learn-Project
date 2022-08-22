@@ -33,6 +33,10 @@ body {
     gap: 1rem;
 }
 
+.filter__buttons > .searchbar {
+    width: 20rem;
+}
+
 .params {
     display: flex;
     flex-direction: row;
