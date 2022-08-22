@@ -1,0 +1,85 @@
+:root {
+    --background-color-day-black: #000000;
+    --background-color-middle: #8055FF;
+    --background-color-day-white: #FFFFFF;
+    --background-color-day-light-blue: #BAD8F5;
+    --background-color-day-blue: #459DF5;
+    --background-color-day-red: #F53152;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input__input {
+    appearance: none;
+    border: none;
+    background-color: #ffffff00;
+    width: -webkit-fill-available;
+}
+
+.input__input:focus {
+    outline: none;
+}
+
+.input_primary > .input__body {
+    border: 0.0625rem solid var(--background-color-day-blue);
+    background-color: var(--background-color-day-white);
+}
+
+.input_incorrect > .input__body {
+    border: 0.0625rem solid var(--background-color-day-red);
+    background-color: var(--background-color-day-white);
+}
+
+.input_blocked > .input__body {
+    background-color: var(--background-color-day-light-blue);
+    border: 0.0625rem solid var(--background-color-day-blue);
+    cursor: not-allowed;
+}
+
+.input_primary > .input__body > .input__icon {
+    display: none;
+}
+
+.input_incorrect > .input__body > .input__icon {
+    fill: var(--background-color-day-light-blue);
+    stroke: var(--background-color-day-light-blue);
+}
+
+.input__label, .input__input::placeholder, .input__input {
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1rem;
+}
+
+.input__label {
+    color: var(--background-color-day-black);
+}
+
+.input__body > .input__input::placeholder {
+    color: var(--background-color-day-light-blue);
+}
+
+.input_blocked > .input__body > .input__input::placeholder {
+    color: var(--background-color-day-black);
+}
+
+.input__body {
+    display: flex;
+    width: 16rem;
+    height: 2rem;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    padding: 0.5rem 0.25rem 0.5rem 0.5rem;
+    justify-content: space-between;
+}
+
+.input__icon {
+    width: 1rem;
+    fill: var(--background-color-day-black);
+    stroke: var(--background-color-day-black);
+}
