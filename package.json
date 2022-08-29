@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "lint": "lint-staged"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Nyay/SBER-Learn-Project.git"
