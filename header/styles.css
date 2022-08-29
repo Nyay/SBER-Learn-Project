@@ -1,37 +1,37 @@
 :root {
-    --background-color-white: #FFFFFF;
-    --background-color-blue: #459DF5;
-    --background-color-day-light-blue: #BAD8F5;
-    --background-color-day-black: #000000;
+  --background-color-white: #ffffff;
+  --background-color-blue: #459df5;
+  --background-color-day-light-blue: #bad8f5;
+  --background-color-day-black: #000000;
 }
 
 .header {
-    display: flex;
-    flex-direction: row;
-    width: 100vh;
-    justify-content: space-between;
-    position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100vh;
+  justify-content: space-between;
+  position: relative;
 }
 
 .header__text {
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 1.5rem;
-    line-height: 1rem;
-    color: var(--background-color-day-black);
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  color: var(--background-color-day-black);
 }
 
 .header > .dropdown {
-    position: absolute;
-    right: 0;
-    top: 2rem;
+  position: absolute;
+  right: 0;
+  top: 2rem;
 }
 
 .header > .dropdown {
-    display: none;
+  display: none;
 }
 
 .header_expanded > .dropdown {
-    display: block;
+  display: block;
 }

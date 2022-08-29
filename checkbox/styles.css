@@ -1,53 +1,53 @@
 :root {
-    --background-color-middle: #8055FF;
-    --background-color-day-white: #FFFFFF;
-    --background-color-day-light-blue: #BAD8F5;
-    --background-color-day-blue: #459DF5;
+  --background-color-middle: #8055ff;
+  --background-color-day-white: #ffffff;
+  --background-color-day-light-blue: #bad8f5;
+  --background-color-day-blue: #459df5;
 }
 
 .checkbox {
-    position: relative;
+  position: relative;
 }
 
 .checkbox__label {
-    display: flex;
+  display: flex;
 }
 
 .checkbox__input {
-    width: 1rem;
-    height: 1rem;
-    background-color: var(--background-color-day-white);
-    border: 0.0625rem solid var(--background-color-day-light-blue);
-    border-radius: 0.125rem;
-    box-sizing: border-box;
-    appearance: none;
+  width: 1rem;
+  height: 1rem;
+  background-color: var(--background-color-day-white);
+  border: 0.0625rem solid var(--background-color-day-light-blue);
+  border-radius: 0.125rem;
+  box-sizing: border-box;
+  appearance: none;
 }
 
 .checkbox__icon {
-    width: 1rem;
-    height: 1rem;
-    position: absolute;
-    top: 0.0625rem;
-    left: 0.0625rem;
-    fill: var(--background-color-day-white);
-    opacity: 0;
-    transition: opacity 0.3s ease-in;
-    margin: 0.125rem 0.09375rem 0.125rem 0.1875rem;
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+  top: 0.0625rem;
+  left: 0.0625rem;
+  fill: var(--background-color-day-white);
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+  margin: 0.125rem 0.09375rem 0.125rem 0.1875rem;
 }
 
 .checkbox__input:checked {
-    background-color: var(--background-color-day-blue);
-    border: none;
+  background-color: var(--background-color-day-blue);
+  border: none;
 }
 
 .checkbox__input:active {
-    background-color: var(--background-color-day-light-blue);
+  background-color: var(--background-color-day-light-blue);
 }
 
 .checkbox__input:active + .checkbox__icon {
-    fill: var(--background-color-day-light-blue);
+  fill: var(--background-color-day-light-blue);
 }
 
 .checkbox__input:checked + .checkbox__icon {
-    opacity: 1;
+  opacity: 1;
 }
